@@ -1,2 +1,3 @@
 .vscode
 connection_secure.py
+db.sqlite3
