@@ -1,3 +1,13 @@
 .vscode
 connection_secure.py
 db.sqlite3
+AGTCheckController/__pycache__/__init__.cpython-38.pyc
+AGTCheckController/__pycache__/admin.cpython-38.pyc
+AGTCheckController/__pycache__/apps.cpython-38.pyc
+AGTCheckController/__pycache__/models.cpython-38.pyc
+AGTCheckController/__pycache__/urls.cpython-38.pyc
+AGTCheckController/__pycache__/views.cpython-38.pyc
+AGTCheckWebsite/__pycache__/__init__.cpython-38.pyc
+AGTCheckWebsite/__pycache__/settings.cpython-38.pyc
+AGTCheckWebsite/__pycache__/urls.cpython-38.pyc
+AGTCheckWebsite/__pycache__/wsgi.cpython-38.pyc
