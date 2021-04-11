@@ -9,10 +9,15 @@ class Verwaltung(models.Model):
 class Organisation(models.Model):
     name = models.CharField(max_length=10)
 
+class Einheit(models.Model):
+    nummer = models.IntegerField()
+    name = models.CharField(max_length=30)
+
 class Fahrzeug(models.Model):
     opta1 = models.ForeignKey(Organisation, on_delete=models.CASCADE)
     opta2 = models.ForeignKey(Verwaltung, on_delete=models.CASCADE)
-    opta3 = models.ForeignKey(FahrzeugTyp, on_delete=models.CASCADE)
+    opta3 = models.ForeignKey(Einheit, on_delete=models.CASCADE)
+    opta4 = models.ForeignKey(FahrzeugTyp, on_delete=models.CASCADE)
 
 class PAStandort(models.Model):
     fahrzeugID = models.ForeignKey(Fahrzeug, on_delete=models.CASCADE)
